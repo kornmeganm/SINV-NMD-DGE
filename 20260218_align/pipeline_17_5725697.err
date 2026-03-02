@@ -1,0 +1,22 @@
+78152396 reads; of these:
+  78152396 (100.00%) were paired; of these:
+    17642636 (22.57%) aligned concordantly 0 times
+    38565936 (49.35%) aligned concordantly exactly 1 time
+    21943824 (28.08%) aligned concordantly >1 times
+    ----
+    17642636 pairs aligned concordantly 0 times; of these:
+      268296 (1.52%) aligned discordantly 1 time
+    ----
+    17374340 pairs aligned 0 times concordantly or discordantly; of these:
+      34748680 mates make up the pairs; of these:
+        29279728 (84.26%) aligned 0 times
+        2324924 (6.69%) aligned exactly 1 time
+        3144028 (9.05%) aligned >1 times
+81.27% overall alignment rate
+
+ERROR: invalid parameter: '1A_hg38.sam'
+
+Error: Encountered one or more spaces while parsing the quality string for read LH00652:349:23F32LLT4:2:1296:18305:18305 1:N:0:TCCGGAGA+CTTCGCCT.  If this is a FASTQ file with integer (non-ASCII-encoded) qualities, try re-running with the --integer-quals option.
+terminate called after throwing an instance of 'int'
+(ERR): hisat2-align died with signal 6 (ABRT) (core dumped)
+rm: cannot remove '/localscratch/mmk2265/align/3B_unaligned.*.fastq': No such file or directory

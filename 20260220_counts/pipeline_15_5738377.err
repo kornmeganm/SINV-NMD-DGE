@@ -1,0 +1,53 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.1.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 SAM file                                       ||
+||                                                                            ||
+||                           2H_SINV.sam                                      ||
+||                                                                            ||
+||             Output file : 2H_SINV_counts.txt                               ||
+||                 Summary : 2H_SINV_counts.txt.summary                       ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : no                                               ||
+||              Annotation : SINV_J0236_1.gtf (GTF)                           ||
+||      Dir for temp files : /groups/as6282_gp/data_bkup/mmk2265/20251208 ... ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file SINV_J0236_1.gtf ...                                  ||
+||    Features : 2                                                            ||
+||    Meta-features : 2                                                       ||
+||    Chromosomes/contigs : 1                                                 ||
+||                                                                            ||
+|| Process SAM file 2H_SINV.sam...                                            ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 7343549                                              ||
+||    Successfully assigned alignments : 948743 (12.9%)                       ||
+||    Running time : 0.02 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/groups/as6282_gp/data_  ||
+|| bkup/mmk2265/20251208_SINV_RNAseq/counts/2H_SINV_counts.txt.summary"       ||
+||                                                                            ||
+\\============================================================================//
+

@@ -1,0 +1,7 @@
+samtools: error while loading shared libraries: libncurses.so.5: cannot open shared object file: No such file or directory
+samtools: error while loading shared libraries: libncurses.so.5: cannot open shared object file: No such file or directory
+samtools: error while loading shared libraries: libncurses.so.5: cannot open shared object file: No such file or directory
+
+ERROR: invalid parameter: '1B_hg38.sorted.bam'
+
+cp: cannot stat '/localscratch/mmk2265/counts/counts.txt': No such file or directory

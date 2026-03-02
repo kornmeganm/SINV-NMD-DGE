@@ -1,0 +1,21 @@
+93701932 reads; of these:
+  93701932 (100.00%) were paired; of these:
+    4328989 (4.62%) aligned concordantly 0 times
+    78089187 (83.34%) aligned concordantly exactly 1 time
+    11283756 (12.04%) aligned concordantly >1 times
+    ----
+    4328989 pairs aligned concordantly 0 times; of these:
+      424886 (9.81%) aligned discordantly 1 time
+    ----
+    3904103 pairs aligned 0 times concordantly or discordantly; of these:
+      7808206 mates make up the pairs; of these:
+        5561161 (71.22%) aligned 0 times
+        1695250 (21.71%) aligned exactly 1 time
+        551795 (7.07%) aligned >1 times
+97.03% overall alignment rate
+[main] unrecognized command 'pair'. Abort!
+Warning: [Errno 2] No such file or directory: '/localscratch/mmk2265/aligned/1A_R1.fastq'
+(ERR): Read file '/localscratch/mmk2265/aligned/1A_R1.fastq' doesn't exist
+Exiting now ...
+cp: cannot stat '/localscratch/mmk2265/aligned/1A_SINV.sam': No such file or directory
+rm: cannot remove '1A_*.fastq': No such file or directory

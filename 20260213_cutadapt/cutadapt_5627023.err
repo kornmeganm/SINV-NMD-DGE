@@ -1,0 +1,2 @@
+/var/spool/slurmd/job5627023/slurm_script: line 13: /groups/as6282_gp/mmk2265/tools/conda/envs/cutadapt/bin/activate: No such file or directory
+slurmstepd-c0702: error: *** JOB 5627023 ON c0702 CANCELLED AT 2026-02-13T12:51:48 ***

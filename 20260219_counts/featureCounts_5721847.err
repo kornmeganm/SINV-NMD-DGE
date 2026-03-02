@@ -1,0 +1,4 @@
+
+ERROR: invalid parameter: '1B_hg38.sam'
+
+cp: cannot stat '/localscratch/mmk2265/counts/counts.txt': No such file or directory

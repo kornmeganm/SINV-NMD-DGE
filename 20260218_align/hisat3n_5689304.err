@@ -1,0 +1,18 @@
+67429424 reads; of these:
+  67429424 (100.00%) were paired; of these:
+    4096895 (6.08%) aligned concordantly 0 times
+    52693323 (78.15%) aligned concordantly exactly 1 time
+    10639206 (15.78%) aligned concordantly >1 times
+    ----
+    4096895 pairs aligned concordantly 0 times; of these:
+      327486 (7.99%) aligned discordantly 1 time
+    ----
+    3769409 pairs aligned 0 times concordantly or discordantly; of these:
+      7538818 mates make up the pairs; of these:
+        5389621 (71.49%) aligned 0 times
+        1469316 (19.49%) aligned exactly 1 time
+        679881 (9.02%) aligned >1 times
+96.00% overall alignment rate
+[main] unrecognized command 'pair'. Abort!
+/var/spool/slurmd/job5689304/slurm_script: line 36: syntax error near unexpected token `)'
+/var/spool/slurmd/job5689304/slurm_script: line 36: `hisat2 -x /groups/as6282_gp/mmk2265/tools/genomes/SINV/SINV_AR339 -1 "$local_output/${PARAMS[$SLURM_ARRAY_TASK_ID]}_R1.fastq") -2 "$local_output/${PARAMS[$SLURM_ARRAY_TASK_ID]}_R2.fastq") -S "$local_output/${PARAMS[$SLURM_ARRAY_TASK_ID]}_SINV.sam" --threads 5'

@@ -1,0 +1,4 @@
+
+ERROR: invalid parameter: '/groups/as6282_gp/data_bkup/mmk2265/20251208_SINV_RNAseq/aligned/1E_hg38.sam'
+
+cp: cannot stat '/localscratch/mmk2265/counts/counts.txt': No such file or directory

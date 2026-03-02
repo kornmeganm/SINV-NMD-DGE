@@ -1,0 +1,4 @@
+
+CondaError: Run 'conda init' before 'conda activate'
+
+slurmstepd-c0707: error: *** JOB 5627061 ON c0707 CANCELLED AT 2026-02-13T12:52:00 ***

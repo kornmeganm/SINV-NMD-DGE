@@ -1,0 +1,21 @@
+39887810 reads; of these:
+  39887810 (100.00%) were paired; of these:
+    1439532 (3.61%) aligned concordantly 0 times
+    35385302 (88.71%) aligned concordantly exactly 1 time
+    3062976 (7.68%) aligned concordantly >1 times
+    ----
+    1439532 pairs aligned concordantly 0 times; of these:
+      172555 (11.99%) aligned discordantly 1 time
+    ----
+    1266977 pairs aligned 0 times concordantly or discordantly; of these:
+      2533954 mates make up the pairs; of these:
+        1517616 (59.89%) aligned 0 times
+        860332 (33.95%) aligned exactly 1 time
+        156006 (6.16%) aligned >1 times
+98.10% overall alignment rate
+[main] unrecognized command 'pair'. Abort!
+[main] unrecognized command 'pair'. Abort!
+Warning: Unsupported file format
+(ERR): Read file '/dev/fd/63' doesn't exist
+Exiting now ...
+cp: cannot stat '/localscratch/mmk2265/aligned/3D_SINV.sam': No such file or directory

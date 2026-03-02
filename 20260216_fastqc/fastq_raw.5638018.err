@@ -1,0 +1,2 @@
+Specified output directory '/localscratch/mmk2265/20260106_fastqc_raw' does not exist
+cp: cannot stat '/localscratch/mmk2265/20260106_fastqc_raw/3G*': No such file or directory

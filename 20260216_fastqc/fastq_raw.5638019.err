@@ -1,0 +1,13 @@
+Started analysis of 1H_R1_001.fastq.gz
+Started analysis of 1H_R2_001.fastq.gz
+Approx 5% complete for 1H_R1_001.fastq.gz
+Approx 5% complete for 1H_R2_001.fastq.gz
+Approx 10% complete for 1H_R1_001.fastq.gz
+Approx 10% complete for 1H_R2_001.fastq.gz
+Approx 15% complete for 1H_R1_001.fastq.gz
+Approx 15% complete for 1H_R2_001.fastq.gz
+Approx 20% complete for 1H_R1_001.fastq.gz
+Approx 20% complete for 1H_R2_001.fastq.gz
+Approx 25% complete for 1H_R1_001.fastq.gz
+Approx 25% complete for 1H_R2_001.fastq.gz
+slurmstepd-c0702: error: *** JOB 5638019 ON c0702 CANCELLED AT 2026-02-16T14:02:05 ***

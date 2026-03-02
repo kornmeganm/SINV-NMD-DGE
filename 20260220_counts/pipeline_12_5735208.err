@@ -1,0 +1,69 @@
+50837918 reads; of these:
+  50837918 (100.00%) were paired; of these:
+    4317931 (8.49%) aligned concordantly 0 times
+    26980766 (53.07%) aligned concordantly exactly 1 time
+    19539221 (38.43%) aligned concordantly >1 times
+    ----
+    4317931 pairs aligned concordantly 0 times; of these:
+      169352 (3.92%) aligned discordantly 1 time
+    ----
+    4148579 pairs aligned 0 times concordantly or discordantly; of these:
+      8297158 mates make up the pairs; of these:
+        5272895 (63.55%) aligned 0 times
+        1346899 (16.23%) aligned exactly 1 time
+        1677364 (20.22%) aligned >1 times
+94.81% overall alignment rate
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.1.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 SAM file                                       ||
+||                                                                            ||
+||                           2E_hg38.sam                                      ||
+||                                                                            ||
+||             Output file : 2E_counts.txt                                    ||
+||                 Summary : 2E_counts.txt.summary                            ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : no                                               ||
+||              Annotation : Homo_sapiens.GRCh38.115.gtf.gz (GTF)             ||
+||      Dir for temp files : /groups/as6282_gp/data_bkup/mmk2265/20251208 ... ||
+||                                                                            ||
+||                 Threads : 8                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Homo_sapiens.GRCh38.115.gtf.gz ...                    ||
+||    Features : 3683354                                                      ||
+||    Meta-features : 78899                                                   ||
+||    Chromosomes/contigs : 70                                                ||
+||                                                                            ||
+|| Process SAM file 2E_hg38.sam...                                            ||
+||    Strand specific : reversely stranded                                    ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 224465664                                            ||
+||    Successfully assigned alignments : 29520190 (13.2%)                     ||
+||    Running time : 0.86 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/groups/as6282_gp/data_  ||
+|| bkup/mmk2265/20251208_SINV_RNAseq/counts/2E_counts.txt.summary"            ||
+||                                                                            ||
+\\============================================================================//
+
+rm: cannot remove '/localscratch/mmk2265/align/2E_unaligned.*.fastq': No such file or directory

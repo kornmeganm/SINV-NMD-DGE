@@ -1,0 +1,10 @@
+
+EnvironmentLocationNotFound: Not a conda environment: /groups/as6282_gp/mmk2265/tools/conda/envs/align
+
+/var/spool/slurmd/job5724615/slurm_script: line 25: hisat2: command not found
+
+ERROR: invalid parameter: '1A_hg38.sam'
+
+/var/spool/slurmd/job5724615/slurm_script: line 31: hisat2: command not found
+rm: cannot remove '/localscratch/mmk2265/align/2B_hg38.sam': No such file or directory
+rm: cannot remove '/localscratch/mmk2265/align/2B_unaligned.*.fastq': No such file or directory

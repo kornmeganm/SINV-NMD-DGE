@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/groups/as6282_gp/mmk2265/tools/conda/envs/cutadapt/bin/cutadapt", line 10, in <module>
+    sys.exit(main())
+  File "/groups/as6282_gp/mmk2265/tools/conda/envs/cutadapt/lib/python3.7/site-packages/cutadapt/__main__.py", line 827, in main
+    stats = runner.run()
+  File "/groups/as6282_gp/mmk2265/tools/conda/envs/cutadapt/lib/python3.7/site-packages/cutadapt/pipeline.py", line 702, in run
+    raise e
+OSError: pigz: skipping: /groups/as6282_gp/data_bkup/mmk2265/20251208_SINV_RNAseq/3G_R2_001.fastq.gz does not exist

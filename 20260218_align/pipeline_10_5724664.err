@@ -1,0 +1,34 @@
+74093102 reads; of these:
+  74093102 (100.00%) were paired; of these:
+    3112701 (4.20%) aligned concordantly 0 times
+    62800540 (84.76%) aligned concordantly exactly 1 time
+    8179861 (11.04%) aligned concordantly >1 times
+    ----
+    3112701 pairs aligned concordantly 0 times; of these:
+      257549 (8.27%) aligned discordantly 1 time
+    ----
+    2855152 pairs aligned 0 times concordantly or discordantly; of these:
+      5710304 mates make up the pairs; of these:
+        3714276 (65.05%) aligned 0 times
+        1504793 (26.35%) aligned exactly 1 time
+        491235 (8.60%) aligned >1 times
+97.49% overall alignment rate
+
+ERROR: invalid parameter: '1A_hg38.sam'
+
+3112701 reads; of these:
+  3112701 (100.00%) were paired; of these:
+    3043161 (97.77%) aligned concordantly 0 times
+    69537 (2.23%) aligned concordantly exactly 1 time
+    3 (0.00%) aligned concordantly >1 times
+    ----
+    3043161 pairs aligned concordantly 0 times; of these:
+      363 (0.01%) aligned discordantly 1 time
+    ----
+    3042798 pairs aligned 0 times concordantly or discordantly; of these:
+      6085596 mates make up the pairs; of these:
+        6084867 (99.99%) aligned 0 times
+        729 (0.01%) aligned exactly 1 time
+        0 (0.00%) aligned >1 times
+2.26% overall alignment rate
+rm: cannot remove '/localscratch/mmk2265/align/2C_unaligned.*.fastq': No such file or directory
