@@ -5,31 +5,26 @@ Project Background
 UPF1 is a central helicase in the Nonsense-Mediated mRNA Decay (NMD) pathway. In this study, we utilize a dTAG (degron) system to acutely degrade UPF1 to investigate its function during viral pathogenesis. Our findings indicate that UPF1 acts as a proviral factor; this analysis seeks to identify the host genetic pathways contributing to this phenotype.
 
 Repository Structure
-FASTQC_Fastp/: Contains scripts and results for raw read quality control and trimming.
+The analysis is organized chronologically. Each directory contains the specific shell/R scripts used, along with the resulting log files and output data.
 
-R_Scripts/: Core analysis scripts using DESeq2 for differential gene expression (DGE).
+20260106_fastqc/: Initial quality control of raw sequencing reads.
 
-Slurm_Scripts/: Batch scripts for high-performance computing (HPC) environments to handle alignment and quantification.
+20260213_cutadapt/: Adapter trimming and filtering of low-quality reads.
 
-Metadata/: Sample sheets defining experimental conditions (Mock vs. SINV, +/- dTAG).
+20260218_align/: Mapping reads to the host and SINV genomes.
+
+20260220_counts/: Generation of the gene-level count matrix.
 
 Analysis Workflow
 1. Pre-processing
 Raw sequencing reads are processed for quality control using FastQC and trimmed for adapters/low-quality bases using cutadapt.
 
-See: FASTQC_Fastp/fastp.sh
+See: 20260106_fastqc/20260106_fastqc.sh and 20260213_cutadapt/20260107_trim.sh
 
 2. Alignment & Quantification
-Reads are mapped to the host genome (and SINV genome) using HISAT2 via the Slurm scripts provided in Slurm_Scripts/. Genes are quantified using featureCounts. 
+Reads are mapped to the host genome (and SINV genome) using HISAT2. Genes are quantified using featureCounts.
 
-3. Differential Gene Expression (DGE)
-We utilize DESeq2 in R to perform statistical comparisons between:
-
-Infection Status: SINV-infected vs. Mock-infected.
-
-UPF1 Status: Control vs. dTAG-induced UPF1 degradation.
-
-Interaction Effects: Identifying genes that respond differently to infection when UPF1 is absent.
+See: 20260218_align/20260219_align_count.sh and 20260218_align/20260218_SINV_align.sh and 20260220_SINV_counts.sh
 
 Key Findings to Look For
 The analysis in this repo specifically looks for:
@@ -38,11 +33,3 @@ Stability changes in known NMD targets during UPF1 degradation.
 
 Correlation between host transcriptional shifts and viral titer reduction upon UPF1 degradation.
 
-Setup & Requirements
-To run the R analyses, you will need the following Bioconductor packages:
-
-R
-if (!require("BiocManager", quietly = TRUE))
-    install.packages("BiocManager")
-
-BiocManager::install(c("DESeq2", "EnhancedVolcano", "clusterProfiler", "pheatmap"))
